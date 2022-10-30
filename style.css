@@ -7,9 +7,19 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0000
 }
 
-
+.bubble
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.25);
+}
 
 
 
